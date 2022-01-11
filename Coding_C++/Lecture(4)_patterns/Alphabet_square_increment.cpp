@@ -2,27 +2,24 @@
 using namespace std;
 int main()
 {
-    int i,j,n,c;
-    cout <<"enter n";
+    int i,j,n;
+    char ch;
+    cout<<"enter n";
     cin>>n;
-    c=0;
-    
     i=0;
+    ch=65;
     while(i<n)
     {
         j=0;
         while(j<n)
         {
-            cout<<" "<<c;
-            c++;
+            cout<<ch++<<" ";
             j++;
         }
-        
         cout<<endl;
+
         i++;
 
     }
-    
-    return 0;
-    
+
 }
