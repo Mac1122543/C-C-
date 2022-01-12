@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i, j, n;
+    char ch = 65, chin;
+    cout << "enter n";
+    cin >> n;
+    i = 1;
+    while (i <= n)
+    {
+        j = 0;
+
+        while (j < i)
+        {
+
+            chin = ch + i + j - 1;
+            cout << chin << " ";
+            j++;
+        }
+
+        cout << endl;
+        i++;
+    }
+}
